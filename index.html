@@ -1,68 +1,96 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-    <head> 
-        <meta charset="utf-8">
-        <title>个人网站.Re01.HTML</title>
-        <style>
-                .bjaudio{
-                    width: 150px;
-                    height: 20px;
-                    margin-left: 70%;
-                    margin-top: 70px;
-                    float: left;
-                }
-                .tx{
-                    margin-left: 45%;
-                    transition: all 0.3s;
-                    object-fit: cover;
-                }
-                .tx:hover{
-                    width: 110px;
-                    height: 90px;
-                    box-shadow: 1px 5px 7px rgb(47, 47, 47);
-                }
-                .p1:hover{
-                    color: rgb(56, 231, 237);
-                }
-                a{
-                    text-decoration: none;
-                    color: rgb(61, 61, 61);
-                }
-        </style>
-    </head>
-    <body style="margin: 0; height: 100%;">
-        <audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src=" https://ltxwj688.github.io/le01-one/
-遇见bj.mp3" class="bjaudio"></audio>
-        <div style="
-            background-color: #f1f1f1;
-            padding: 40px;
-        ">         
-
-            <img alt="头像" src=" https://ltxwj688.github.io/le01-one/
-lass1.jpg" width="100px" height="80px" style="border-radius: 40px;" class="tx">
-        </div>
-        <div style="
-            max-width: 760px;
-            margin: 30px auto;
-            padding: 15px;
-            line-height: 1.7;
-        ">
-                <p class="p1">姓名：追光者</p>
-                <p class="p1">性别：男</p>
-                <p class="p1">出生日期：2001-01-01</p>
-                <p class="p1">love 憨儿</p>
-                <p class="p1">个人简介：你的第一个个人网站，只属于你自己的网站，尽情绽放自己吧！</p>
-        </div>
-        <div style="
-            background-color: #f1f1f1;
-            text-align: center;
-            padding: 40px;
-            font-size: 12px;
-            margin-bottom: 0%;
-        ">
-                <p>版权属个人，如有雷同请联系</p>
-                <a href="https://kangwenchang.com">康文昌网站</a>
-         </div>
-
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box-1 {
+        text-align: center;
+        padding: 40px;
+      }
+      .box-2 {
+        margin: 0 auto;
+        max-width: 700px;
+        height: 250px;
+        padding: 40px;
+      }
+      .box-3 {
+        text-align: center;
+      }
+      .tp {
+        margin-left: 200px;
+        transition: all 0.3s;
+        object-fit: cover;
+      }
+      .tp:hover {
+        width: 310px;
+        height: 210px;
+        box-shadow: 1px 5px 7px rgb(67, 67, 67);
+      }
+      .box-4 {
+        width: 200px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box-1">
+      <h1>一级标题</h1>
+      <h2>二级标题</h2>
+    </div>
+    <div class="box-2">
+      <img
+        src="https://tse4-mm.cn.bing.net/th/id/OIP-C.MwvdSAjSnBDxe_X0RtqapgHaEo?w=280&h=180&c=7&r=0&o=5&dpr=2&pid=1.7"
+        alt="图片"
+        width="300px"
+        height="200px"
+        class="tp"
+      />
+    </div>
+    <div class="box-3">
+      <p>跟随康老大的学编程之路</p>
+      <br /><!--换行标签-->
+      <p>
+        <em>一键三连</em
+        ><!--强调文本-->，你值得拥有<span style="color: red">小红花！</span
+        ><!--对文本某一段进行作色-->
+      </p>
+      <p>康老大，这是这节课的作用哦！完成了！</p>
+      <hr />
+      <!--水平线-->
+      <p>最远的路就是代码之路。</p>
+    </div>
+    <div class="box-4">
+      <ol>
+        <!--有序标签1，2，3。。-->
+        <li>第一个选择</li>
+        <li>第二个选择</li>
+        <li>第三个选择</li>
+      </ol>
+      <ul>
+        <!--无序标签，圆形，方形。。-->
+        <li>第一个选择</li>
+        <li>第二个选择</li>
+        <li>第三个选择</li>
+      </ul>
+      <input />
+      <table border="1">
+        <tr>
+          <th>表头</th>
+        </tr>
+        <tr>
+          <td>AAA</td>
+          <td>BBB</td>
+          <td>CCC</td>
+        </tr>
+        <tr>
+          <td>AAA</td>
+          <td>BBB</td>
+          <td>CCC</td>
+        </tr>
+      </table>
+    </div>
+  </body>
 </html>
